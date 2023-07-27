@@ -1,9 +1,9 @@
 import React from 'react'
 
-const FilePicke = () => {
+const FilePicker = () => {
   return (
     <div>FilePicke</div>
   )
 }
 
-export default FilePicke
+export default FilePicker

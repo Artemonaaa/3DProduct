@@ -4,12 +4,12 @@ import { useSnapshot } from 'valtio'
 import state from '../store'
 
 const CustomButton = ({ type, title, customStyles, handleClick }) => {
-  const snape = useSnapshot(state)
+  const snap = useSnapshot(state)
 
   const generalStyle = (type) => {
     if(type === "filled") {
       return {
-        backgroundColor: snape.color,
+        backgroundColor: snap.color,
         color: "#fff"
       }
     }
